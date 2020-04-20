@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body id="applique2">
-<div class="container">
+<div class="container">           
 
 <div class="row">   
 

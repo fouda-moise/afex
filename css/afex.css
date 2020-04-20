@@ -1,0 +1,98 @@
+body{
+    
+    font-family: 'Lato', sans-serif;
+    background-image: url(/images/header.jpg);
+   
+}
+#first{
+    width: 400px;
+    height: 700px;
+    box-shadow: 0 0 15px rgba(14,41,57,0);
+    float: left;
+    padding: 10px 50px 0;
+    background-image: url(/images/bgaudatech.gif);
+    margin: 2% 30%;
+    border-radius: 6px;
+}
+.one{
+    display: block;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.submit{
+   background-color: #EE1C25;
+   border-radius: 5px;
+   border:none;
+   padding: 10px 25px;
+   color: #FFF;
+   text-shadow: 1px 1px 1px #949494;
+   margin-left: 10px;
+   width: 300px;
+}
+.submit:hover{
+    background: linear-gradient(#424242,#A4A4A4)
+}
+input,select{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #cbcbcb;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.18);
+    font-family: cursive;
+}
+
+textarea{
+    width: 100px;
+    padding: 7px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.18);
+
+}
+img#logo{
+    margin-left: 20px;
+}
+p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    margin-top: 10px;
+}
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+    color: #1abc9c;
+}
+/* Copyrights */
+
+#copyrights {
+  background: #629ACE;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+   border:none;
+   width: 300px;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#copyrights a {
+  color: #fff;
+}
+
+

@@ -77,7 +77,7 @@ require_once('connect.php');
 				<li role="separator" class="divider"></li>
 				<li><a href="#" title="Lien 4"></a></li>
 				</ul>
-				<!--</div>-->
+				<!--</div>-->          
 		</div>
 		 <!--  <a href="projet.php"><p>  </p> </a>-->
 		 <!-- <a href="menudoc.php"><p>  DOCUMENTS</p> </a><br>-->

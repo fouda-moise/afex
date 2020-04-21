@@ -72,7 +72,7 @@ require_once('connect.php');
 				</button>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 				<li><a href="newProjet.php" title="Lien 1">NOUVEAU</a></li>
-				<li><a href="cible.php" title="Lien 2">RECHERCHE</a></li>
+				<li><a href="search_projet.php" title="Lien 2">RECHERCHE</a></li>
 				<li><a href="listeProjet.php" title="Lien 3">TOUS LES PROJETS</a></li>
 				<li role="separator" class="divider"></li>
 				<li><a href="#" title="Lien 4"></a></li>

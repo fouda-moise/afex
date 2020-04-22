@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body id="applique2">
+<body id="applique3">
 	<div class="container">
 
 	<div class="row">
@@ -69,8 +69,11 @@
 		<!-- AFFICHAGE D'INFORMATION SUR LE CLIENT -->
 		<div class="col-lg-3">
 			<?php  
-						
-							echo $var = $_POST['client'];
+							
+								# code...
+								echo $var = $_POST['client'];
+							
+							
 						
 						
 
@@ -106,7 +109,7 @@
 
 
 		<div class="col-lg-3">
-
+			<a  href="menu1.php" class="btn btn-primary" >Retour</a>
 		</div>
 	</div>
 

@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body id="applique3">
 	<div class="container">
 
 	<div class="row">
@@ -54,17 +54,18 @@
 		</div>
 
 		 
-		<div class="col-lg-3"></div>
+		
 
 		<!-- AFFICHAGE D'INFORMATION SUR LE CLIENT -->
-		<div class="col-lg-3">
+		<div class="col-lg-9">
 			<?php  //include("cible.php");  ?>
+			<img src="">
 		</div>
 
 
 
 
-		<div class="col-lg-3"></div>
+		
 	</div>
 
 	

@@ -28,6 +28,9 @@
 	 				// echo $_POST['type'];
 
 	 				if (isset($_POST['btn'])) 
+
+	 					echo $_POST['type'];
+	 					echo $_POST['intitule'];
 	 				{
  				# code...
 
@@ -40,10 +43,14 @@
 		 				$stmt->bindParam(3,$data);
 		 				$stmt->execute();
 
+
+
+
+
  				 }
-
-
-
+ 				 //COPIE DANS LA TABLE DOCUMENT
+ 				//echo $today = date("F j, Y, g:i a").'<br />'; // 
+ 				//echo $_SESSION['projet'];
  ?>
 
 <p></p>

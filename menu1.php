@@ -39,7 +39,7 @@ require_once('connect.php');
 		<div class="col-lg-6" id="demo" class="carousel slide" data-ride="carousel"></div>
 		 
 		 <div class="col-lg-3">
-		 		<button class="btn btn-secondary">
+		 		<button class="btn btn-default">
 		 			
 					<p>BIENVENUE MR.<?php echo strtoupper($_SESSION['nom']);  ?></p>
 					<p>AGENCE DE <?php echo $_SESSION['ville'] ?></p>	
@@ -58,7 +58,7 @@ require_once('connect.php');
 		 	
 
 
-		 	<?php // include('lastprojet.php');   ?>
+		 	<?php // include('lastprojet.php');assets/images/menu21.png   ?>
 		 	<img src="assets/images/menu2.png">	
 		 </div>   
 
@@ -66,7 +66,7 @@ require_once('connect.php');
 		 <div class="navbar">
 				<!--<div class="dropdown">-->
 
-				<button class="btn btn-primary dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				<button class="btn btn-danger dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						PROJETS
 				<span class="caret"></span>
 				</button>
@@ -91,13 +91,13 @@ require_once('connect.php');
 		 <div class="navbar">
 				<!--<div class="dropdown">-->
 
-				<button class="btn btn-primary dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				<button class="btn btn-danger dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						DOCUMENTS
 				<span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 				<li><a href="newDoc.php" title="Lien 1">NOUVEAU</a></li>
-				<li><a href="#" title="Lien 2">RECHERCHE</a></li>
+				<li><a href="view.php" title="Lien 2">RECHERCHE</a></li>
 				
 				<li role="separator" class="divider"></li>
 				<li><a href="#" title="Lien 4"></a></li>
@@ -112,12 +112,12 @@ require_once('connect.php');
 		<div class="navbar">
 				<!--<div class="dropdown">-->
 
-				<button class="btn btn-primary dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				<button class="btn btn-danger dropdown-toggles" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						EXPLOITATION
 				<span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-				<li><a href="#" title="Lien 1">DEPENSE</a></li>
+				<li><a href="depenses.php" title="Lien 1">DEPENSE</a></li>
 				<li><a href="#" title="Lien 2">NOTES DE FRAIS</a></li>
 				<li><a href="#" title="Lien 3">SUIVI</a></li>
 				<li role="separator" class="divider"></li>

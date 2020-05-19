@@ -59,7 +59,7 @@
 	<div class="form-group">
 	<label for="intitule">Projet : </label>
 	
-		<select class="form-control" id="intitule" size="1">
+		<select class="form-control" name="intitule" size="1">
 
 				<?php 
 
@@ -69,7 +69,7 @@
 
 					while ($ligne = $resultat->fetch())
 					{
-						echo '<option>'.$ligne['intitule']."<br/>";
+						echo '<option>'.$ligne['intitule']."<brfs/>";
 					}
 
 				 ?>
@@ -77,7 +77,7 @@
 
 		
  </div>
-<?php   echo $_SESSION['projet'] = $ligne['intitule']; ?>
+<?php   $_SESSION['projet'] = $ligne['intitule']; ?>
 
  <div class="form-group">
  	<label for="creation">Date de creation du document</label>

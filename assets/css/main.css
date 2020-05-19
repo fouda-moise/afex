@@ -63,8 +63,15 @@ img.pull-left { margin-right: 10px; }
 #applique2{
 	background:url(https://img.freepik.com/vecteurs-libre/fond-technologie-futuriste-floue-blanche_23-2148402775.jpg?size=626&ext=jpg);
 }
-#applique3{ background:url(https://images8.alphacoders.com/367/367432.jpg) }
+#applique3{ background:url(https://images8.alphacoders.com/367/367432.jpg);}
 #applique4{background:url(https://image.freepik.com/vector-gratis/circulo-tecnologia-punto-toque-mano-poligono_34679-67.jpg);}
+
+#labelcaisse{
+	display:block;
+	float:left;
+	width:150px;
+}
+#inputcaisse{input{float: left;}}
 .maincontent { 
 		
 }
